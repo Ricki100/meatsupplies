@@ -2892,8 +2892,11 @@ footer h4.h05::after {
 /* footer main
  * --------------------------------- */
 .footer-main {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  height:300px;
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+
+
 }
 .footer-main ul {
   font-size: 1.5rem;
@@ -3342,4 +3345,17 @@ xrotate-1
     opacity: 0;
   }
 }
-/* -------------------------------- 
+
+.form{
+  width: 100%;
+    margin: 0 auto;
+    margin-left: 20%;
+}
+.form-control{
+  padding-right:300px;
+}
+
+b{
+  font-size:120%;
+}
+
