@@ -1836,7 +1836,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
   padding: 4.2rem 0 12rem;
   background-color: #5E3F3F;
-  min-height: 696px;
+  min-height: 1000px;
   text-align: center;
 }
 #about .about-wrap {
@@ -3067,8 +3067,20 @@ footer h4.h05::after {
 
 .products {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+  grid-template-columns: auto auto auto; /* fraction*/
+  position: relative;
 }
+
+
+
+
+.image3 {
+  
+ 
+  
+}
+
+
 
 .cd-title {
   position: relative;
