@@ -573,10 +573,9 @@ select {
   display: block;
   height: 6rem;
   padding: 1.5rem 2rem;
-  border: 0;
   outline: none;
   vertical-align: middle;
-  color: #444444;
+  color: #b87e02;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
@@ -2898,6 +2897,8 @@ footer h4.h05::after {
 
 
 }
+
+
 .footer-main ul {
   font-size: 1.5rem;
   margin-left: 0;
@@ -3357,5 +3358,15 @@ xrotate-1
 
 b{
   font-size:120%;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 

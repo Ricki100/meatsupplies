@@ -34,6 +34,21 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 	<link rel="icon" href="favicon.png" type="image/x-icon">
 
+	<style>
+	.name{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color:rgb(107, 71, 3);
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  border-color: #877070!important;
+  border-width: 2px;
+  box-sizing: border-box;
+}
+	</style>
+
 </head>
 
 <body id="top">
@@ -42,7 +57,7 @@
    ================================================== -->
    <header> 
 
-   	<img src="images/logo.svg" alt="logo" style="height:100px;position: fixed;left: 32px;top: 30px;" class="logo">
+   <!--	<img src="images/logo.svg" alt="logo" style="height:100px;position: fixed;left: 32px;top: 30px;" class="logo">-->
 
 		<a id="header-menu-trigger" href="#0">
 		 	<span class="header-menu-text">Menu</span>
@@ -141,7 +156,15 @@
 					<img src="images/sausage.png" alt="huku" class="image2">
 				</div>
 				<div><img src="images/wyt.png" alt="huku" class="image3">
-					<h1 class="animate-intro">Enter your details below to place an order</h1>
+					<h1 class="animate-intro" style="color: #877070">Enter your details below  <br/> and place an order</h1>
+
+					<form>
+					<input type="text" size="85" id="name" name="name" class="name" placeholder="NAME">
+					<input type="text" size="85" id="phone" name="name" class="name" placeholder="PHONE">
+					<input type="text" size="85" id="email" name="name" class="name" placeholder="EMAIL">
+					<input type="text" size="85" id="address" name="name" class="name" placeholder="ADDRESS">
+					<input type="text" size="85" id="order" name="name" class="name" placeholder="ORDER">
+					</form>
 				
 				
 				</div>  
