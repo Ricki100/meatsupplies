@@ -3371,3 +3371,15 @@ input{
   box-sizing: border-box;
 }
 
+.footer-main{
+  display:block;
+  margin: 0 auto;
+  margin-left: 50%;
+  font-size:50px;
+}
+
+i{
+  font-size:50px;
+  margin:20px;
+  color:#877070;
+}
